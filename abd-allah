@@ -1,0 +1,19 @@
+#include<iostream>
+class Git
+{
+	public:
+		Git() {Message = "";}
+		~Git(){};
+		void Show()
+		{
+			cout<<Message<<endl;
+		}
+	private:
+		string Message = "Hello Git Users";
+};
+int main()
+{
+	Git user;
+	user.print();
+	system.pause();
+}
